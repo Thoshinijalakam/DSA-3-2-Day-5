@@ -9,6 +9,10 @@ public class Bubble_sort_5{
                     arr[j+1]=temp;
                 }
             }
+            System.out.println();
+            for(Object k:arr){
+                System.out.print(k+" ");
+            }
         }
     }    
     public static void main(String[] args) {
